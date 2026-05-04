@@ -1,0 +1,62 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.hero-text h2 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #555;
+}
+.hero-text {
+  text-align: left;
+}
+
+.about,
+.projects,
+.contact {
+  text-align: center;
+}
+.logo {
+  color: var(--color-primary);
+}
+
+.hero-text h2 {
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  margin-bottom: 10px;
+}
+
+.project-card {
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+.container{margin-top:20px;}
+
+.about-one{font-size:21px;}
+.about-two{font-size:20px;}
